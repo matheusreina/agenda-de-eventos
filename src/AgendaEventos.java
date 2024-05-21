@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+import java.util.Map;
 import java.util.TreeMap;
 
 public class AgendaEventos {
@@ -12,5 +13,15 @@ public class AgendaEventos {
         listaEventos.put(data, new Evento(nome, atracao));
     }
 
+    static void exibirAgenda() {
+        System.out.println(listaEventos);
+    }
+
+    static Evento obterProximoEvento() {
+        LocalDate proxData;
+        for (Map.Entry<LocalDate, >) {
+
+        }
+    }
 
 }
