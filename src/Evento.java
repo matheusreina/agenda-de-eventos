@@ -10,7 +10,7 @@ public class Evento {
 
     @Override
     public String toString() {
-        return "{ ~"+getNome()+" | Atração: "+getAtracao()+" }";
+        return " ~"+getNome()+" | Atração: "+getAtracao()+" }";
     }
 
     public String getNome() {
